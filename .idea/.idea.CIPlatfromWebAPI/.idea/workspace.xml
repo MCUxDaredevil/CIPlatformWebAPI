@@ -9,7 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f06664-4762-4c6f-9d95-e802123c9de7" name="Changes" comment="" />
+    <list default="true" id="76f06664-4762-4c6f-9d95-e802123c9de7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/0/c/0c3b6bfdd2f57ff304e681ba0463f16c8c8507e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/1/e/1e8294d410a8a68034f811811302ff4f9819260c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/securityhotspotstore/0/c/0c3b6bfdd2f57ff304e681ba0463f16c8c8507e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/securityhotspotstore/1/e/1e8294d410a8a68034f811811302ff4f9819260c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business_logic_Layer/BALMissionTheme.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CIPlatfromWebAPI/Controllers/MissionThemeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Access_Layer/DALMissionTheme.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/4/1/41dad67093c6906bbb5232f471eaa171661d234e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/4/1/41dad67093c6906bbb5232f471eaa171661d234e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/5/2/52414a54f18109da10b4761c5120510f9f34a311" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/5/2/52414a54f18109da10b4761c5120510f9f34a311" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/7/3/733f06cbd57642bcafb0bf879753f2306eaad533" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/7/3/733f06cbd57642bcafb0bf879753f2306eaad533" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIPlatfromWebAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business_logic_Layer/BALMission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business_logic_Layer/BALMission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIPlatfromWebAPI/Controllers/CommonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CIPlatfromWebAPI/Controllers/CommonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIPlatfromWebAPI/Controllers/MissionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CIPlatfromWebAPI/Controllers/MissionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIPlatfromWebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CIPlatfromWebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Access_Layer/DALCommon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Access_Layer/DALCommon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Access_Layer/DALMission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Access_Layer/DALMission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Access_Layer/DALMissionSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Access_Layer/DALMissionSkill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Access_Layer/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Access_Layer/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Access_Layer/Repository/Entities/Missions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Access_Layer/Repository/Entities/Missions.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +42,17 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2hJMFR0pWf5g4GTWvKH4jgOafmN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,14 +62,17 @@
     &quot;.NET Launch Settings Profile.Web_API: IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.Web_API: http.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;app.teamhub.trackedBranches&quot;: &quot;&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;app.teamhub.selectedTeam&quot;: &quot;github.com/MCUxDaredevil/CIPlatformWebAPI&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;1qrbvsg/main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -112,7 +145,13 @@
       <workItem from="1717332586178" duration="2838000" />
       <workItem from="1717335463789" duration="1776000" />
       <workItem from="1717406058816" duration="1137000" />
-      <workItem from="1717408593072" duration="1831000" />
+      <workItem from="1717408593072" duration="6073000" />
+      <workItem from="1717424131535" duration="560000" />
+      <workItem from="1717514569470" duration="7146000" />
+      <workItem from="1717579877423" duration="125000" />
+      <workItem from="1717580033051" duration="2371000" />
+      <workItem from="1717597185355" duration="2411000" />
+      <workItem from="1717654276593" duration="1026000" />
     </task>
     <servers />
   </component>

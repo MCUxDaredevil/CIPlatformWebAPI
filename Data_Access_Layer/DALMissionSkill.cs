@@ -20,7 +20,9 @@ namespace Data_Access_Layer
 
         public async Task<List<MissionSkill>> GetMissionSkillListAsync()
         {
-            return await _cIDbContext.MissionSkill.Where(x => !x.IsDeleted).ToListAsync();
+            return await _cIDbContext.MissionSkill
+                .Where(x => !x.IsDeleted)
+                .ToListAsync();
         }
 
         public async Task<MissionSkill> GetMissionSkillByIdAsync(int id)

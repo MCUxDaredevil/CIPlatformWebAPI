@@ -16,6 +16,25 @@ namespace Data_Access_Layer
         {
             _cIDbContext = cIDbContext;
         }
+
+
+        public List<DALCommon.Option> GetMissionSkillList()
+        {
+            return _cIDbContext.MissionSkill
+                .Where(x => !x.IsDeleted)
+                .Select(s => new DALCommon.Option { value = s.Id, text = s.SkillName })
+                .ToList();
+        }
+
+        public List<DALCommon.Option> GetMissionThemeList()
+        {
+            return _cIDbContext.MissionTheme
+                .Where(x => !x.IsDeleted)
+                .Select(s => new DALCommon.Option { value = s.Id, text = s.ThemeName })
+                .ToList();
+        }
+
+
         public  List<Missions> MissionList()
         {
             return _cIDbContext.Missions.ToList();
@@ -32,7 +51,8 @@ namespace Data_Access_Layer
             }
             catch (Exception ex)
             {
-                throw ex;
+
+                result = ex.Message;
             }
             return result;
         }

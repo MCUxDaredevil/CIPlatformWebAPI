@@ -143,7 +143,6 @@ namespace Data_Access_Layer.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("MissionAvilability")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("MissionDescription")
@@ -151,7 +150,6 @@ namespace Data_Access_Layer.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("MissionDocuments")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("MissionImages")
@@ -159,11 +157,9 @@ namespace Data_Access_Layer.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("MissionOrganisationDetail")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("MissionOrganisationName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("MissionSkillId")
@@ -179,11 +175,9 @@ namespace Data_Access_Layer.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("MissionType")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("MissionVideoUrl")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("ModifiedDate")

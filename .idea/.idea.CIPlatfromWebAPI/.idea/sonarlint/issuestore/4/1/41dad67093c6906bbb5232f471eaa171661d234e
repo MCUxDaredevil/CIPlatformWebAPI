@@ -1,0 +1,7 @@
+
+¦csharpsquid:S2737%"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(â½Žµøÿÿÿÿ8’á þ1J$4468f889-7beb-4f65-8b9a-373d2d7f27ab
+¦csharpsquid:S2737>"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(â½Žµøÿÿÿÿ8ì¥ê¡þ1J$1e99bddf-0cba-4b4f-8336-eae459e894e2
+¥csharpsquid:S101"WRename class 'BALCommon' to match pascal case naming rules, consider using 'BalCommon'.(Š½§Åûÿÿÿÿ8Ó…× þ1J$1b29ce49-4dc3-4437-b369-0ce46f8a6e31
+hcsharpsquid:S2933"Make 'result' 'readonly'.(ìÛó™þÿÿÿÿ8Õ…× þ1J$bbee4197-75d0-4f46-9efa-0057de7e5ccb
+¤csharpsquid:S4487
+"URemove this unread private field '_jwtService' or refactor the code to use its value.(×’íÍüÿÿÿÿ8Õ…× þ1J$efa42ac3-15ea-491e-8ded-14024b375a20

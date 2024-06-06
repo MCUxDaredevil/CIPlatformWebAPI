@@ -2,7 +2,6 @@
 using Data_Access_Layer.Repository.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Headers;
 
 namespace Web_API.Controllers
 {
@@ -12,12 +11,47 @@ namespace Web_API.Controllers
     {
         private readonly BALMission _balMission;
         private readonly ResponseResult result = new ResponseResult();
-        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _environment;
 
-        public MissionController(BALMission balMission, Microsoft.AspNetCore.Hosting.IHostingEnvironment environment)
+        public MissionController(BALMission balMission)
         {
             _balMission = balMission;
-            _environment = environment;
+        }
+
+        [HttpGet]
+        [Route("GetMissionSkillList")]
+        public ResponseResult GetMissionSkillList()
+        {
+            try
+            {
+                result.Data = _balMission.GetMissionSkillList();
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+
+            return result;
+        }
+
+        [HttpGet]
+        [Route("GetMissionThemeList")]
+        public ResponseResult GetMissionThemeList()
+        {
+            try
+            {
+                result.Data = _balMission.GetMissionThemeList();
+                ;
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+
+            return result;
         }
 
         [HttpGet]
@@ -34,6 +68,7 @@ namespace Web_API.Controllers
                 result.Result = ResponseStatus.Error;
                 result.Message = ex.Message;
             }
+
             return result;
         }
 
@@ -51,49 +86,8 @@ namespace Web_API.Controllers
                 result.Result = ResponseStatus.Error;
                 result.Message = ex.Message;
             }
+
             return result;
-        }
-
-        [HttpPost]
-        [Route("UploadImage")]
-        public async Task<IActionResult> UploadImage([FromForm] List<IFormFile> upload)
-        {
-            try
-            {
-                string filePath = "";
-                string fullPath = "";
-                var files = Request.Form.Files;
-                List<string> fileList = new List<string>();
-                if (files != null && files.Count > 0)
-                {
-                    foreach (var file in files)
-                    {
-                        string fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-                        filePath = Path.Combine("UploadMissionImage", "Mission");
-                        string fileRootPath = Path.Combine(_environment.WebRootPath, filePath);
-
-                        if (!Directory.Exists(fileRootPath))
-                        {
-                            Directory.CreateDirectory(fileRootPath);
-                        }
-
-                        string name = Path.GetFileNameWithoutExtension(fileName);
-                        string extension = Path.GetExtension(fileName);
-                        string fullFileName = name + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + extension;
-                        fullPath = Path.Combine(fileRootPath, fullFileName);
-                        using (var stream = new FileStream(fullPath, FileMode.Create))
-                        {
-                            await file.CopyToAsync(stream);
-                        }
-                        fileList.Add(fullPath);
-                    }
-                }
-                return Ok(fileList);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
         }
     }
 }

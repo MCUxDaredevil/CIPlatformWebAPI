@@ -36,6 +36,8 @@ builder.Services.AddScoped<BALAdminUser>();
 builder.Services.AddScoped<DALAdminUser>();
 builder.Services.AddScoped<BALMissionSkill>();
 builder.Services.AddScoped<DALMissionSkill>();
+builder.Services.AddScoped<BALMissionTheme>();
+builder.Services.AddScoped<DALMissionTheme>();
 builder.Services.AddScoped<BALMission>();
 builder.Services.AddScoped<DALMission>();
 builder.Services.AddScoped<BALCommon>();

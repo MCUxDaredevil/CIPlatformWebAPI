@@ -17,6 +17,16 @@ namespace Business_logic_Layer
             _dalMission = dalMission;
         }
 
+        public List<DALCommon.Option> GetMissionThemeList()
+        {
+            return _dalMission.GetMissionThemeList();
+        }
+
+        public List<DALCommon.Option> GetMissionSkillList()
+        {
+            return _dalMission.GetMissionSkillList();
+        }
+
         public List<Missions> MissionList()
         {
             return _dalMission.MissionList();

@@ -1,0 +1,8 @@
+
+±csharpsquid:S101"cRename class 'DALMissionTheme' to match pascal case naming rules, consider using 'DalMissionTheme'.(õÙ¼Æÿÿÿÿÿ8Œéå¡ş1J$e87f5bc9-995c-4ea1-8702-1a59b4d0c4c1
+~csharpsquid:S112+"5'System.Exception' should not be thrown by user code.(ÊÉì8éå¡ş1J$6356152b-cb69-4f83-a60d-4dfdac5d11f8
+~csharpsquid:S112="5'System.Exception' should not be thrown by user code.(Ôú©¡8éå¡ş1J$084a93a8-43fa-4900-af11-2f57abbad28b
+ƒcsharpsquid:S112C"5'System.Exception' should not be thrown by user code.(ªº•šûÿÿÿÿ8éå¡ş1J$850e4751-a9e2-411a-b944-e139f155d284
+~csharpsquid:S112T"5'System.Exception' should not be thrown by user code.(Ôú©¡8éå¡ş1J$bcb4fa72-32f5-416a-b422-0dad1e55ab9b
+ƒcsharpsquid:S112Z"5'System.Exception' should not be thrown by user code.(æË´úÿÿÿÿ8éå¡ş1J$2cabca7c-b0a4-4971-9651-22931167bfb5
+fcsharpsquid:S6966%"Await AddAsync instead.(§‹Æùÿÿÿÿ8éå¡ş1J$119bf72e-0120-4336-b1eb-268a769a0b32
